@@ -1,0 +1,24 @@
+{
+  "name": "mini-stack",
+  "version": "1.0.0",
+  "description": "A simple stack implementation to store JSON objects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mshirlaw/mini-stack.git"
+  },
+  "keywords": [
+    "stack",
+    "JSON",
+    "objects"
+  ],
+  "author": "Matt Shirlaw <matt.shirlaw@gmail.com> (https://github.com/mshirlaw/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mshirlaw/mini-stack/issues"
+  },
+  "homepage": "https://github.com/mshirlaw/mini-stack#readme"
+}

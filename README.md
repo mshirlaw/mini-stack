@@ -6,6 +6,21 @@ A simple stack implementation to store JSON objects
 
     npm install mini-stack --save
 
+## Usage
+
+    var stack = require("mini-stack");
+    
+    stack.size(); // returns 0
+    stack.push({id: "First Person"}); // returns true
+    stack.push({id: "Second Person"}); // returns true
+    stack.size(); // returns 2
+    stack.peek(); // returns {id: "Second Person"}
+    stack.pop(); // returns {id: "Second Person"} and removes {id: "Second Person"}
+    stack.length(); // returns 1
+    stack.peek(); // returns {id: "First Person"}
+    stack.clear(); // returns true
+    stack.size(); // returns 0
+
 ## API
 
 ####size()
@@ -22,21 +37,6 @@ Returns the item which is currently at the top of the stack and removes it
 
 ####peek()
 Returns the item which is currently at the top of the stack but does not remove it
-
-## Usage
-
-    var stack = require("mini-stack");
-    
-    stack.size(); // returns 0
-    stack.push({id: "First Person"}); // returns true
-    stack.push({id: "Second Person"}); // returns true
-    stack.size(); // returns 2
-    stack.peek(); // returns {id: "Second Person"}
-    stack.pop(); // returns {id: "Second Person"} and removes {id: "Second Person"}
-    stack.length(); // returns 1
-    stack.peek(); // returns {id: "First Person"}
-    stack.clear(); // returns true
-    stack.size(); // returns 0
 
 ## Tests
 

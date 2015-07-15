@@ -6,6 +6,23 @@ A simple stack implementation to store JSON objects
 
     npm install mini-stack --save
 
+## API
+
+###size()
+Returns the size of the stack, or number of items
+
+###clear()
+Clears all items in the stack
+
+###push(item)
+Pushes an new item onto the top of the stack
+
+###pop()
+Returns the item which is currently at the top of the stack and removes it
+
+###peek()
+Returns the item which is currently at the top of the stack but does not remove it
+
 ## Usage
 
     var stack = require("mini-stack");

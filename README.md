@@ -8,19 +8,19 @@ A simple stack implementation to store JSON objects
 
 ## API
 
-###size()
+####size()
 Returns the size of the stack, or number of items
 
-###clear()
+####clear()
 Clears all items in the stack
 
-###push(item)
+####push(item)
 Pushes an new item onto the top of the stack
 
-###pop()
+####pop()
 Returns the item which is currently at the top of the stack and removes it
 
-###peek()
+####peek()
 Returns the item which is currently at the top of the stack but does not remove it
 
 ## Usage

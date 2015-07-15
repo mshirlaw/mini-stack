@@ -16,7 +16,7 @@ A simple stack implementation to store JSON objects
     theStack.push({id: "Second Person"}); // returns true
     theStack.size(); // returns 2
     theStack.peek(); // returns {id: "Second Person"}
-    theStack.pop(); // returns {id: "Second Person"} and removes {id: "Second Person"} from the stack
+    theStack.pop(); // returns {id: "Second Person"} and removes {id: "Second Person"}
     theStack.length(); // returns 1
     theStack.peek(); // returns {id: "First Person"}
     theStack.clear(); // returns true

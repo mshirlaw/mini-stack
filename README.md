@@ -9,18 +9,17 @@ A simple stack implementation to store JSON objects
 ## Usage
 
     var stack = require("mini-stack");
-        theStack = stack();
     
-    theStack.size(); // returns 0
-    theStack.push({id: "First Person"}); // returns true
-    theStack.push({id: "Second Person"}); // returns true
-    theStack.size(); // returns 2
-    theStack.peek(); // returns {id: "Second Person"}
-    theStack.pop(); // returns {id: "Second Person"} and removes {id: "Second Person"}
-    theStack.length(); // returns 1
-    theStack.peek(); // returns {id: "First Person"}
-    theStack.clear(); // returns true
-    theStack.size(); // returns 0
+    stack.size(); // returns 0
+    stack.push({id: "First Person"}); // returns true
+    stack.push({id: "Second Person"}); // returns true
+    stack.size(); // returns 2
+    stack.peek(); // returns {id: "Second Person"}
+    stack.pop(); // returns {id: "Second Person"} and removes {id: "Second Person"}
+    stack.length(); // returns 1
+    stack.peek(); // returns {id: "First Person"}
+    stack.clear(); // returns true
+    stack.size(); // returns 0
 
 ## Tests
 

@@ -21,6 +21,14 @@ A simple stack implementation to store JSON objects
     stack.clear(); // returns true
     stack.size(); // returns 0
 
+## Tests
+
+    npm test
+
+## Release History
+
+* 1.0.0 Initial release
+
 ## API
 
 ####size()
@@ -37,11 +45,3 @@ Returns the item which is currently at the top of the stack and removes it
 
 ####peek()
 Returns the item which is currently at the top of the stack but does not remove it
-
-## Tests
-
-    npm test
-
-## Release History
-
-* 1.0.0 Initial release

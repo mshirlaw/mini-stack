@@ -1,6 +1,6 @@
 {
   "name": "mini-stack",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple stack implementation to store JSON objects",
   "main": "index.js",
   "scripts": {

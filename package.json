@@ -1,28 +1,28 @@
 {
-  "name": "mini-stack",
-  "version": "1.0.2",
-  "description": "A simple stack implementation to store JSON objects",
-  "main": "index.js",
-  "scripts": {
-    "test": "./node_modules/.bin/mocha --reporter spec"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mshirlaw/mini-stack.git"
-  },
-  "keywords": [
-    "stack",
-    "JSON",
-    "objects"
-  ],
-  "author": "Matt Shirlaw <matt.shirlaw@gmail.com> (https://github.com/mshirlaw/)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/mshirlaw/mini-stack/issues"
-  },
-  "homepage": "https://github.com/mshirlaw/mini-stack#readme",
-  "devDependencies": {
-    "chai": "^3.0.0",
-    "mocha": "^2.2.5"
-  }
+	"name": "mini-stack",
+	"version": "1.0.3",
+	"description": "A simple stack implementation to store JSON objects",
+	"main": "src/index.js",
+	"scripts": {
+		"test": "./node_modules/.bin/mocha --reporter spec test/"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/mshirlaw/mini-stack.git"
+	},
+	"keywords": [
+		"stack",
+		"JSON",
+		"objects"
+	],
+	"author": "Matt Shirlaw <matt.shirlaw@gmail.com> (https://github.com/mshirlaw/)",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/mshirlaw/mini-stack/issues"
+	},
+	"homepage": "https://github.com/mshirlaw/mini-stack#readme",
+	"devDependencies": {
+		"chai": "^3.0.0",
+		"mocha": "^2.2.5"
+	}
 }

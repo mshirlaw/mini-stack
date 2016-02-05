@@ -31,7 +31,7 @@ A simple stack implementation to store JSON objects
 * 1.0.0 Initial Release
 * 1.0.1 Updated README.md
 * 1.0.2 Minor bug fixes
-* 1.0.3 Updated to use IFFE to avoid polluting scope
+* 1.0.3 Updated to use an IIFE to avoid polluting scope
 
 ## API
 

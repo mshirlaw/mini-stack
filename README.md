@@ -44,3 +44,4 @@ push(item) -> Pushes an new item onto the top of the stack
 pop() -> Returns the item which is currently at the top of the stack and removes it
 
 peek() -> Returns the item which is currently at the top of the stack but does not remove it
+

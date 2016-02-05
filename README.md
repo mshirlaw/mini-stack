@@ -9,7 +9,7 @@ A simple stack implementation to store JSON objects
 ## Usage
 
 	var Stack = require("mini-stack");
-	var stack = new Stack();
+	var stack = Stack();
 
 	stack.size(); // returns 0
 	stack.push({id: "First Person"}); // returns true
@@ -32,6 +32,7 @@ A simple stack implementation to store JSON objects
 * 1.0.1 Updated README.md
 * 1.0.2 Minor bug fixes
 * 1.0.3 Updated to use an IIFE to avoid polluting scope
+* 1.0.4 Minor bug fix
 
 ## API
 

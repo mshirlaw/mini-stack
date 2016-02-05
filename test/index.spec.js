@@ -2,7 +2,7 @@ var should = require('chai').should();
 var expect = require('chai').expect;
 
 var Stack = require('../src/index');
-var stack = new Stack();
+var stack = Stack();
 
 describe('when the stack is empty it:', function(){
 	

@@ -33,6 +33,7 @@ A simple stack implementation to store JSON objects
 * 1.0.2 Minor bug fixes
 * 1.0.3 Updated to use an IIFE to avoid polluting scope
 * 1.0.4 Minor bug fix
+* 1.0.5 Force update of README.md
 
 ## API
 

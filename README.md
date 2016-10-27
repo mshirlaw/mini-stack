@@ -34,6 +34,7 @@ A simple stack implementation to store JSON objects
 * 1.0.3 Updated to use an IIFE to avoid polluting scope
 * 1.0.4 Minor bug fix
 * 1.0.5 Force update of README.md
+* 1.0.6 Make data attribute private, expose accessible members at top
 
 ## API
 
